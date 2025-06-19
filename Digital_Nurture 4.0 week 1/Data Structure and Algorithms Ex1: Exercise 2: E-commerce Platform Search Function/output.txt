@@ -1,4 +1,4 @@
-PS E:\cognisant> java Search  
+PS E:\cognizant> java Search  
       Choose search type: 
       1. Linear Search
       2. Binary Search
@@ -6,7 +6,7 @@ PS E:\cognisant> java Search
       Enter product name: apple
       Apple watch - $700.00
 
-PS E:\cognisant> java Search
+PS E:\cognizant> java Search
       Choose search type: 
       1. Linear Search
       2. Binary Search
