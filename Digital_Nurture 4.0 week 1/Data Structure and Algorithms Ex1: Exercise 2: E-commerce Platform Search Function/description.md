@@ -10,17 +10,17 @@ Both methods are combined in a single file (`Searches.java`) with a menu-driven 
 
 ---
 
-## 🧠 Search Methods
+## Search Methods
 
 ### 1. Linear Search
 - Scans every item in the list.
 - Finds all products where the name **contains** the search term.
-- ✅ Good for flexible searching.
+- Good for flexible searching.
 - Slow (O(n))
 
 ### 2. Binary Search
 - First sorts the product list alphabetically.
 - Then performs a fast **divide-and-conquer** search.
-- ✅ Good for exact matches in large datasets.
-- ❌ Fails if you search with partial words.
+- Good for exact matches in large datasets.
+- Fails if you search with partial words.
 - Fast (O(log n))
