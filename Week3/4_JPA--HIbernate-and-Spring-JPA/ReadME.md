@@ -58,7 +58,7 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 ---
 
 
-## Summary List: Core Takeaways
+## Summary List/Core Takeaways
 JPA tells you what to do, not how—a blueprint.
 Hibernate enacts the blueprint with additional tools.
 Spring Data JPA makes database operations easier, hides much of the plumbing, and amplifies productivity.
