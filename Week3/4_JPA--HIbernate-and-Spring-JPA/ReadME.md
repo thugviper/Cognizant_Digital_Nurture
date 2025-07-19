@@ -1,4 +1,4 @@
-# 🔍 Hands-on 4: Difference Between JPA, Hibernate, and Spring Data JPA
+# Hands-on 4: Difference Between JPA, Hibernate, and Spring Data JPA
 
 ## Exploring JPA, Hibernate, and Spring Data JPA
 This guide presents  distinctions between **JPA**, **Hibernate**, and **Spring Data JPA** 
