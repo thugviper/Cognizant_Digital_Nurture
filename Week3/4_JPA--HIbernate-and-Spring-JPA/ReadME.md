@@ -1,7 +1,7 @@
-# 🔍 Hands-on 4: Difference Between JPA, Hibernate, and Spring Data JPA
+# Hands-on 4: Difference Between JPA, Hibernate, and Spring Data JPA
 
 ## Exploring JPA, Hibernate, and Spring Data JPA
-This guide presents  distinctions between **JPA**, **Hibernate**, and **Spring Data JPA** 
+This document presents  distinctions between **JPA**, **Hibernate**, and **Spring Data JPA** 
 through concise explanations and real-world code illustrations.
 
 ## What is JPA?
@@ -58,7 +58,7 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 ---
 
 
-## Summary List: Core Takeaways
+## Summary List/Core Takeaways
 JPA tells you what to do, not how—a blueprint.
 Hibernate enacts the blueprint with additional tools.
 Spring Data JPA makes database operations easier, hides much of the plumbing, and amplifies productivity.
