@@ -1,4 +1,4 @@
-# Assignment 2: React Components Overview
+#React Components Overview
 
 ## 1. Explain React Components
 
