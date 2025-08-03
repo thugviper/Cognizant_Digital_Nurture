@@ -8,7 +8,7 @@
 - React batches event handling for performance.
 
 **Example:**
-<button onClick={handleClick}>Click Me</button>
+```<button onClick={handleClick}>Click Me</button>```
 
 
 ---
@@ -22,12 +22,12 @@
 - You must use braces `{}` to pass a function reference, *not* a string.
 
 **Example:**
-function handleClick(event) {
+```function handleClick(event) {
 alert('Button was clicked!');
 }
 
 <button onClick={handleClick}>Click Me</button>
-
+```
 
 ---
 
@@ -40,10 +40,11 @@ A **Synthetic Event** is React’s cross-browser wrapper around the native brows
 - To access event values asynchronously, use `event.persist()`.
 
 **Example:**
-function handleInput(event) {
+```function handleInput(event) {
 console.log(event.target.value); // SyntheticEvent in React
 }
 <input onChange={handleInput} />
+```
 
 
 ---
@@ -57,6 +58,7 @@ React follows these naming conventions for events:
 - The value of the event prop should be a function reference (not a string).
 
 **Examples:**
-<button onClick={handleClick}>Click</button> // Correct (camelCase, function)
+```<button onClick={handleClick}>Click</button> // Correct (camelCase, function)
 <button onclick="handleClick()">Click</button> // Incorrect (lowercase, string)
+```
 
