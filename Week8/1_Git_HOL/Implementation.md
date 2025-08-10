@@ -17,7 +17,6 @@ git status
 git add welcome.txt
 git commit
 git remote add origin https://gitlab.com/week4461132/GitDemo.git
-//git branch -m main
+# git branch -m main
 git pull -u origin master
 git push -u origin master
-
