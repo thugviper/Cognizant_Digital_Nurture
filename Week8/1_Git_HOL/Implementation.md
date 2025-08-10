@@ -1,15 +1,16 @@
 # Configuring git
+```bash
 git --version
 git config --global user.name "Name" \n
 git config --global user.email "Email@example.com"
 git config --list
-
+```
 # Setting up notepad++
-notepad++
+```notepad++
 git config --global core.editor "notepad++ -multiInst -notabbar -nosession -noPlugin"
-
+```
 # Setting up Repository 
-mkdir GitDemo
+```mkdir GitDemo
 cd GitDemo
 git init
 echo "Welcome to Git Hands-On Lab" > welcome.txt
@@ -20,3 +21,4 @@ git remote add origin https://gitlab.com/week4461132/GitDemo.git
 # git branch -m main
 git pull -u origin master
 git push -u origin master
+```
