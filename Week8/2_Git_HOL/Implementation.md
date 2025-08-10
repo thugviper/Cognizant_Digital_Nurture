@@ -12,11 +12,13 @@ echo "inside log folder" > log/error.log
 ```
 
 # creating .gitignore
-```touch .gitignore
+```bash
+touch .gitignore
 # Inside .gitignore, add:
 *.log
 log/
 ```
+
 
 # commit and checking status
 ```git add .
